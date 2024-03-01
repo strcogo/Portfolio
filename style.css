@@ -35,7 +35,8 @@ nav{
     padding: 8px 1.4rem;
     transition: all 0.4s;}
 
-.logo:hover{scale: 1.1;}
+.logo:hover{scale: 1.1;
+    transform: rotate(-6deg);}
 
 .dropdown button{
     background-color: rgba(184, 7, 7, 0);
@@ -66,13 +67,11 @@ nav{
     text-align: center;
     border-radius: 10px;
     transition: all 0.4s;
-    scale: 0.1;
-    transform: rotate(-200deg);}
+    scale: 0.1;}
 
 .dropdown:hover .content{
     opacity: 1;
-    scale: 1;
-    transform: rotate(0deg);}
+    scale: 1;}
 
 .navitems .other{
     font-size: 28px;
@@ -97,17 +96,20 @@ nav{
 .line{width: 100%; 
     border-bottom: 0.1px solid;
     border-color: rgba(240, 248, 255, 0.103);}
+    
 
 .lin{transition: all 0.3s;}
     
 .maintext .lin:hover{
     color: aliceblue;
-    scale: 1.05;}
+    scale: 1.05;
+    transform: rotate(1deg);}
 
 .projects{padding-left: 25%;}
 .projects h1{color: aliceblue;}
 .projects p{font-size: 35px; 
-    font-weight: 600;}
+    font-weight: 600;
+    color: rgba(240, 248, 255, 0.597);}
 .project-detail{padding-top: 30px;}
 .project-detail a{font-size: 35px; 
     font-weight: 600; 
@@ -122,7 +124,6 @@ nav{
     background-image: url(csound.gif);
     background-repeat: no-repeat;
     background-size: cover;
-    left: 25%;
     transition: all 0.4s}
 .csound-demo:hover{scale: 1.06;}
 
